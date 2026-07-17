@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+}
+.calculator {
+  height: 430px;
+  width: 250px;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.screen {
+  border-radius: 20px;
+  width: 250px;
+  height: 150px;
+  background-color: black;
+}
+#input {
+  position: relative;
+  left: 70px;
+  top: 80px;
+  height: 50px;
+}
+.buttons {
+  margin-top: 20px;
+}
+button {
+  margin-left: 15px;
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: larger;
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  border: 2px;
+  background-color: gray;
+}
