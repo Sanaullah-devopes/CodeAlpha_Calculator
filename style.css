@@ -3,31 +3,36 @@
   font-family: Arial;
 }
 .calculator {
-  height: 430px;
-  width: 250px;
+  height: 480px;
+  width: 240px;
   background-color: white;
   margin-top: 100px;
   margin-left: 200px;
-  border-radius: 20px;
-  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: 3px 6px 10px gray;
 }
 .screen {
   border-radius: 20px;
-  width: 250px;
-  height: 150px;
-  background-color: black;
+  width: 100%;
+  height: 38%;
+  border: none;
 }
 #input {
   position: relative;
-  left: 70px;
-  top: 80px;
-  height: 50px;
+  width: 90%;
+  top: 60%;
+  height: 30%;
+  border: none;
+  outline: none;
+  text-align: right;
+  font-size: 3rem;
+  font-weight: 560;
 }
 .buttons {
-  margin-top: 20px;
+  margin-top: 7%;
 }
 button {
-  margin-left: 15px;
+  margin-left: 12px;
   margin-top: 8px;
   font-weight: 700;
   font-size: larger;
@@ -37,4 +42,18 @@ button {
   border-radius: 50%;
   border: 2px;
   background-color: gray;
+}
+#zero {
+  width: 96.8px;
+  border-radius: 20px;
+  background-color: rgb(175, 175, 175);
+}
+.last {
+  margin-top: 9%;
+}
+.sign {
+  background-color: orange;
+}
+.operator {
+  background-color: rgb(175, 175, 175);
 }
