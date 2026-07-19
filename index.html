@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="calculator">
       <div class="screen">
+        <button><i class="fa-solid fa-up-down" id="mode"></i></button>
         <input type="text" placeholder="0" id="input" />
       </div>
       <div class="buttons">
         <button class="operator" class="">AC</button>
-        <button class="operator">-|+</button>
+        <button class="operator">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
         <button class="operator">%</button>
         <button class="sign">÷</button>
-        <button class="num">7</button>
-        <button class="num">8</button>
-        <button class="num">9</button>
+        <button class="7">7</button>
+        <button class="8">8</button>
+        <button class="9">9</button>
         <button class="sign">x</button>
-        <button class="num">4</button>
-        <button class="num">5</button>
-        <button class="num">6</button>
+        <button class="4">4</button>
+        <button class="5">5</button>
+        <button class="6">6</button>
         <button class="sign">-</button>
-        <button class="num">1</button>
-        <button class="num">2</button>
-        <button class="num">3</button>
+        <button class="1">1</button>
+        <button class="2">2</button>
+        <button class="3">3</button>
         <button class="sign">+</button>
         <button class="last" id="zero">0</button>
         <button class="last">.</button>
