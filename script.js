@@ -11,5 +11,30 @@ function check() {
   console.log(curmode);
 }
 mode.addEventListener("click", check);
-let prevalue;
-let currvalue;
+
+let operator = document.querySelector("#mode");
+function col() {
+  const operators = document.querySelectorAll(".operator");
+
+  operators.forEach((button) => {
+    if (curmode === "dark") {
+      button.style.backgroundColor = "white";
+      button.style.color = "#afafaf";
+    } else {
+      button.style.backgroundColor = "#afafaf";
+      button.style.color = "white";
+    }
+  });
+}
+operator.addEventListener("click", col);
+function change() {
+  if (curmode == "dark") {
+    document.querySelector(".input").style.color = "white";
+  } else {
+    document.querySelector(".input").style.color = "black";
+  }
+}
+mode.addEventListener("click", change);
+function clearDisplay() {
+  display.value = "";
+}
